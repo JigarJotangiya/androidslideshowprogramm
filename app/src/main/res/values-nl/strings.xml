@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+	<!ENTITY appname "Slideshow">
+	<!ENTITY author "Michael Standen">
+	]>
+
+<resources>
+	<string name="app_name">&appname;</string>
+	<string name="action_settings">Instellingen</string>
+	<string name="action_credits">Over</string>
+	<string name="action_picture_in_picture">Afbeelding in Afbeelding</string>
+
+	<string name="no_picture_in_picture">Afbeelding in Afbeelding is niet ondersteund door je toestel.</string>
+
+	<!-- List -->
+	<string name="inaccessible">(ontoegankelijk)</string>
+	<string name="go_home_folder">Zit je vast? Klik hier om terug te keren.</string>
+	<string name="play_folder">Speel Slideshow vanaf hier</string>
+
+	<!-- Slideshow -->
+	<string name="title_activity_image">&appname;</string>
+
+	<string name="delete_button">Verwijderen</string>
+	<string name="delete_dialog_title">Verwijder beeld</string>
+	<string name="delete_dialog_message">Ben je zeker?</string>
+	<string name="image_deleted">Beeld verwijderd</string>
+	<string name="image_not_deleted">Onmogelijk het beeld te verwijderen</string>
+
+	<string name="share_button">Delen</string>
+	<string name="share_via">Deel via&#8230;</string>
+
+	<string name="image_detail_dimensions">Afmetingen: %1$dx%2$d</string>
+	<string name="image_detail_size">Bestandsgrootte: %1$s</string>
+	<string name="image_detail_modified">Aangepast: %1$s</string>
+
+	<string name="toast_no_files">Geen bestanden te tonen</string>
+
+	<string name="long_loading_warning">%1$s heeft een lange tijd nodig om te laden.</string>
+	<string name="long_loading_skipping">%1$s heeft een lange tijd nodig om te laden. Overslaan.</string>
+	<string name="long_loading_skip_action">Overslaan</string>
+	
+	<!-- Image descriptions -->
+	<string name="image_description">Beeld</string>
+	<string name="logo_description">Logo</string>
+
+	<!-- Credits -->
+	<string name="title_activity_credits">Over &appname;</string>
+	<string name="credits_creator">door <a href="https://michael.standen.link">&author;</a></string>
+	<string name="credits_content1">Slideshow is een eenvoudige applicatie om beelden te bekijken op je telefoon.
+
+	</string>
+	<string name="credits_content2">Zonder toeters of bellen is dit simpelweg de eenvoudigste applicatie op de markt.
+
+	</string>
+	<string name="credits_content3">Je kan de broncode bekijken, problemen melden of producteigenschappen aanvragen via
+		<a href="https://github.com/Screaminghawk/android-slideshow">Github</a>.
+	</string>
+	<string name="credits_content4">Deze applicatie is volledig vrij en "open source"; gelicentieerd
+		onder de <a href="https://tldrlegal.com/license/mit-license">MIT licentie</a>.
+	</string>
+	<string name="credits_content5">Met dank aan <a href="https://github.com/psyanite">Yan Tsui</a>
+		voor het testen en het ontwerpen van het &appname; icoon.
+	</string>
+	<string name="credits_content6">Deze vertaling van &appname; werd voorzien door
+		<a href="https://zephyrict.com">ZephyrICT</a>.
+	</string>
+
+
+	<!-- Settings -->
+
+	<string name="title_activity_settings">Instellingen</string>
+
+	<string name="pref_title_show_hidden_files">Toon verborgen bestanden</string>
+	<string name="pref_description_show_hidden_files">Toont bestanden die verborgen zijn door andere
+		bestand managers.
+	</string>
+
+	<string name="pref_title_show_thumbnails">Toon miniaturen</string>
+	<string name="pref_description_show_thumbnails">Toont beeldminiaturen. Dit uitschakelen verhoogt
+		de performantie, echter kan je dan niet zien welke bestanden beelden zijn en welke niet.
+	</string>
+
+	<string name="pref_title_remember_location">Begin vanaf laatste locatie</string>
+	<string name="pref_description_remember_location">Wanneer geopend zal &appname; starten in de
+		locatie dat een diashow het laatst was gebruikt.
+	</string>
+
+	<string name="pref_title_auto_start">Start Automatically</string>
+	<string name="pref_description_auto_start">Wanneer geopend zal &appname; een diashow starten van het
+		laatste beeld dat getoond werd.
+	</string>
+
+	<string name="pref_title_play_from_here">Inschakelen "Speel vanaf hier" knop</string>
+	<string name="pref_description_play_from_here">De "Speel vanaf hier" knop verschijnt in de bestandslijst
+		en laat je toe de diashow te beginnen vanuit de huidige folder inclusief alle onderliggende folders.
+		Deze functie is standaard uitgeschakeld daar het mogelijks nadelig is voor de performantie.
+	</string>
+
+	<string name="pref_title_enable_gif_support">GIF ondersteuning inschakelen</string>
+	<string name="pref_description_enable_gif_support">Automatisch afspelen van GIFs wanneer deze getoond worden.
+		Maakt gebruik van Glide beeld laden.
+	</string>
+
+	<string name="pref_title_use_device_root">Gebruik toestel root</string>
+	<string name="pref_description_use_device_root">Schakel toegang tot de root folder van het toestel in.
+		Dit laat toegang toe tot elk bestand in alle folders op het toestel inclusied externe opslag
+		zoals SD kaarten. Nota: Mogelijks heb je een "rooted" toestel nodig om dit te doen werken.
+	</string>
+
+	<string name="pref_title_slide_delay">Dia vertraging</string>
+	<string name="pref_description_slide_delay">Klik om het aantal seconden te veranderen dat een beeld
+		zal getoond worden alvorens het volgende beeld te tonen.
+	</string>
+
+	<string name="pref_title_image_strategy">Gebruik Glide om beelden te laden</string>
+	<string name="pref_description_image_strategy">Gebruik Glide om beelden te laden. Glide ondersteunt
+		andere kenmerken, zoals vooraf laden en GIF ondersteuning. Wanneer dit uitgeschakeld is wordt de oude gewone manier van beeld laden gebruikt. Dit geeft mogelijk betere performantie op sommige toestellen.
+	</string>
+
+	<string name="pref_title_preload_images">Vooraf laden beelden</string>
+	<string name="pref_description_preload_images">Laad het volgende beeld tijdens de huidige dia.
+		Dit uitschakelen verhoogt mogelijks de performantie op sommige toestellen. Maakt gebruik van Glide beeld laden.
+	</string>
+
+	<string name="pref_title_skip_long_load">Sla lang laden beelden over</string>
+	<string name="pref_description_skip_long_load">Sla beelden over waar het te lang duurt om ze te laden tijdens de diashow. 
+		Er wordt een bericht getoond wanneer dit gebeurd.
+	</string>
+
+	<string name="pref_title_image_details">Toon beeld details</string>
+	<string name="pref_description_image_details">Toon de beeld details tijdens de diavoorstelling.
+	</string>
+
+	<string name="pref_title_stop_on_complete">Stop bij einde</string>
+	<string name="pref_description_stop_on_complete">Stop de diavoorstelling wanneer alle beelden zijn
+		getoond.
+	</string>
+
+	<string name="pref_title_reverse_order">Omgekeerde volgorde</string>
+	<string name="pref_description_reverse_order">Toon de beelden van de diavoorstelling in omgekeerde
+		volgorde.
+	</string>
+
+	<string name="pref_title_random_order">Willekeurige volgorde</string>
+	<string name="pref_description_random_order">Toon de beelden van de diavoorstelling in willekeurige
+		volgorde.
+	</string>
+</resources>
